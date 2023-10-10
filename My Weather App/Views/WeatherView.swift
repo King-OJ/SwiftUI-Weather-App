@@ -17,7 +17,8 @@ struct WeatherView: View {
             ZStack(alignment: .leading) {
                 
                 VStack {
-                    //search bar funtionality
+                    SearchBarView( weather: $weather)
+                        .frame(maxWidth: .infinity)
                     
                     VStack(alignment: .leading, spacing: 5) {
                         Text("\(weather.name), \(weather.sys.country)")
@@ -77,7 +78,7 @@ struct WeatherView: View {
                         Text("Weather now")
                             .bold()
                             .padding(.bottom)
-                            .foregroundColor(.black)
+                            .foregroundColor(.white)
                         
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {

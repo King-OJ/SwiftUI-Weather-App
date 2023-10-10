@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B065DF622AD5790F00D07BAF /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B065DF612AD5790F00D07BAF /* SearchBarView.swift */; };
 		B0773FFC2AC5899700EA7AC8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0773FFB2AC5899700EA7AC8 /* LoadingView.swift */; };
 		B0773FFE2AC58AAD00EA7AC8 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0773FFD2AC58AAD00EA7AC8 /* WeatherView.swift */; };
 		B07740002AC58B7A00EA7AC8 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0773FFF2AC58B7A00EA7AC8 /* WeatherManager.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B065DF612AD5790F00D07BAF /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		B0773FFB2AC5899700EA7AC8 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		B0773FFD2AC58AAD00EA7AC8 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		B0773FFF2AC58B7A00EA7AC8 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				B0A6EEAF2ABDF379009862AC /* WelcomeView.swift */,
 				B0773FFB2AC5899700EA7AC8 /* LoadingView.swift */,
 				B0773FFD2AC58AAD00EA7AC8 /* WeatherView.swift */,
+				B065DF612AD5790F00D07BAF /* SearchBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B065DF622AD5790F00D07BAF /* SearchBarView.swift in Sources */,
 				B0A6EEA02ABDE66A009862AC /* ContentView.swift in Sources */,
 				B088A6F32AD41FC0005E61BC /* Extensions.swift in Sources */,
 				B0A6EE9E2ABDE66A009862AC /* My_Weather_AppApp.swift in Sources */,

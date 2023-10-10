@@ -39,6 +39,7 @@ class WeatherManager {
         }.resume()
     }
     
+    
     func getWeatherData(for city: String, completion: @escaping (Result<WeatherResponse, WeatherError>) -> Void) {
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=\(apiKey)&units=metric") else {
             completion(.failure(.invalidURL))
